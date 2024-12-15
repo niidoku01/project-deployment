@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Timer | Focus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="timer-message">PLEASE SELECT A TIMER BEFORE YOU START.</div>
+
+    <div class="container">
+        <div class="timer">
+            <h1>⏰ PRODUCTIVITY TIMER</h1>
+
+            <div class="button-container">
+                <button class="button" id="productive-session">WORKING TIME</button>
+                <button class="button" id="short-break">SHORT BREAK</button>
+                <button class="button" id="long-break">LONG BREAK</button>
+            </div>
+
+            <main>
+                <div class="productive">
+                    <div id="productive-timer" class="timer-display" data-duration="25.00">
+                        <h1 class="time">25:00</h1>
+                    </div>
+
+                    <div id="short-timer" class="timer-display" data-duration="5.00">
+                        <h1 class="time">5:00</h1>
+                    </div>
+
+                    <div id="long-timer" class="timer-display" data-duration="10.00">
+                        <h1 class="time">10:00</h1>
+                    </div>
+                </div>
+            </main>
+
+            <div class="buttons">
+                <button id="start">START</button>
+                <button id="stop">STOP</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
